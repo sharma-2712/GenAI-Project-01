@@ -32,7 +32,7 @@ const Navbar = () => {
                     <div className="brand-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z" /></svg>
                     </div>
-                    <span className="brand-text">Interview<span className="highlight">AI</span></span>
+                    <span className="brand-text">Prep<span className="highlight">IQ</span></span>
                 </div>
 
                 {/* Mobile Toggle - Text will disappear on small screens per your protocol */}
