@@ -7,7 +7,11 @@ const app=express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://prep-iq-tau.vercel.app",
+    origin: [
+        "http://localhost:5173",
+        "https://prep-iq-tau.vercel.app",
+        "https://prep-iq-git-main-sharma-2712s-projects.vercel.app"
+    ],
     credentials: true
 }))
 // Require all the Routes
