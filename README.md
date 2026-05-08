@@ -94,7 +94,7 @@ JWT_SECERT=your_jwt_secret
 GOOGLE_GENAI_API_KEY=your_google_genai_api_key
 ```
 
-## ▶️ Run the App
+## ▶️ Run the App Locally
 
 ### Backend
 
@@ -115,6 +115,20 @@ npm run dev
 ```
 
 The Vite app runs on `http://localhost:5173`.
+
+## 🌍 Deployment
+
+### Frontend - Vercel
+The frontend is deployed on **Vercel** for seamless React + Vite hosting.
+- Build command: `npm run build`
+- Start command: `npm run preview` (local) or automatic on Vercel
+
+### Backend - Render
+The backend API is deployed on **Render** for Node.js/Express hosting.
+- Environment variables are configured in Render dashboard
+- Auto-deploys from the main branch
+
+**Note:** Ensure your frontend API calls point to the Render backend URL and CORS is configured appropriately.
 
 ## 🔄 How It Works
 
