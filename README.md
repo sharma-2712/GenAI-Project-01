@@ -1,4 +1,4 @@
-# 🤖 GenAI Project
+# 🤖 Prep IQ 
 
 A full-stack AI-powered interview preparation and resume tailoring platform. The app lets users register, log in, upload a resume, describe a target job, and generate an AI interview report with technical questions, behavioral questions, skill-gap analysis, and a 7-day preparation plan. It also supports downloading a tailored resume PDF.
 
